@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="start"><center>Click Bắt đầu!</center>
+        </div>
+        <div id="thieu"><h2> PS(Thiếu câu) </h2><br>
+Câu 41: Trong hệ điều hành Windows khi sử dụng trình soạn thảo Microsoft Word muốn lưu File thì tên nào sau đây là hợp lệ? <br>
+A. Biagiao?an.doc <br>
+B. "Bìa giáo án".doc <br>
+C. Bia giao an:doc <br>
+D. Bia giao an.doc <br>
+<h4>Đáp án đúng D</h4>
+<hr>
+Câu 43: Server có những ưu điểm nào vượt trội so với PC và Workstation ? (chọn 2 phương án) <br>
+A. Khả năng chịu lỗi cao <br>
+B. Cung cấp các dịch vụ phục vụ mục đích khác nhau <br>
+C. Có cơ chế hot swap <br>
+D. Server to hơn PC và Workstation <br>
+<h4> Đáp án đúng A và C </h4>
+        </div>
+        <div id="quiz" style="display: none">
+
+            <div id="question"></div>
+             <div id="choices">
+                <div class="choice" id="A" onclick="checkAnswer('A')"></div>
+                <div class="choice" id="B" onclick="checkAnswer('B')"></div>
+                <div class="choice" id="C" onclick="checkAnswer('C')"></div>
+                <div class="choice" id="D" onclick="checkAnswer('D')"></div>
+            </div>
+            </div>
+            <div id="progress"></div>
+        <div id="scoreContainer" style="display: none"></div>
+    <script src="quiz.js"></script>
+    <input  type="button" id="refreshpage" value="Click để làm lại" onclick="history.go(0) ">
+    <div id="question"></div>
+</body>
+</html>

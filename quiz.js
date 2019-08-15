@@ -64,8 +64,8 @@ let questions = [
         question : "Câu 8: Thuật ngữ “RAM” là từ viết tắt của cụm từ?",
         choiceA : "A. Read Access Memorys",
         choiceB : "B. Recent Access Memory",
-        choiceC : "C. System Devices",
-        choiceD : "C. Random Access Memory",
+        choiceC : "C. Random Access Memory",
+        choiceD : "D. Read And Modify",
         correct : "C"
     },{
         question : "Câu 9: Bộ nhớ đệm bên trong CPU được gọi là?",
